@@ -1,0 +1,144 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+  color: #3e88ff;
+}
+a:hover {
+  color: #e68824;
+}
+
+.page-container {
+  background-color: white;
+}
+.header {
+  width: 100%;
+  height: 75px;
+  display: flex;
+  align-items: center;
+}
+.title {
+  margin-left: 5%;
+  font-size: 24px;
+  text-transform: uppercase;
+}
+.main-section {
+  display: flex;
+  flex-direction: column;
+  margin: 1%;
+}
+.image-container {
+  width: 100%;
+  display: flex;
+  padding: 5%;
+  margin: 10% 0;
+}
+
+.image-container img {
+  width: 100%;
+  object-fit: contain;
+}
+
+.content-container {
+  padding: 3%;
+  display: flex;
+  flex-direction: column;
+}
+.content-title {
+  font-size: 48px;
+}
+
+.content-description {
+  width: 100%;
+  font-size: 18px;
+  margin: 15% 0 20% 0;
+}
+
+.back-to-home-button {
+  align-self: flex-start;
+  padding: 1rem 2rem;
+  background-color: #333333;
+  color: white;
+  border-radius: 3px;
+  text-transform: uppercase;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.back-to-home-button:hover {
+  background-color: black;
+}
+
+.footer {
+  width: 100%;
+  height: 75px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 14px;
+}
+@media (min-width: 640px) {
+  .main-section {
+    margin: 3%;
+  }
+  .image-container {
+    margin: 3% 0;
+  }
+  .content-description {
+    margin: 5% 0 10% 0;
+  }
+}
+
+@media (min-width: 1024px) {
+  .title {
+    margin-left: 3%;
+  }
+  .main-section {
+    margin: 1%;
+    flex-direction: row;
+  }
+  .image-container {
+    width: 50%;
+    padding: 3%;
+    margin: 0;
+  }
+  .content-container {
+    width: 50%;
+    padding: 3%;
+  }
+  .content-title {
+    font-size: 64px;
+  }
+  .content-description {
+    width: 360px;
+    font-size: 24px;
+    margin: 10% 0 15% 0;
+  }
+}
+
+@media (min-width: 1624px) {
+  .main-section {
+    margin: 1% 7%;
+  }
+  .image-container {
+    justify-content: center;
+  }
+  .image-container img {
+    width: 90%;
+  }
+  .content-description {
+    margin: 7% 0 10% 0;
+  }
+  .footer {
+    font-size: 24px;
+  }
+}
