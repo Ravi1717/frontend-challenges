@@ -16,7 +16,7 @@ function App() {
           <h2 className="content-title font-typo">I have bad news for you</h2>
           <p className="content-description font-typo">
             The page you are looking for might be removed or is temporarily
-            unavailable
+            available
           </p>
           <button className="back-to-home-button font-typo">
             Back to Home
